@@ -3,7 +3,7 @@ import {useDispatch} from "react-redux";
 import {Change} from "../feathers/theam";
 import {useParams} from "react-router-dom";
 
-function Color() {
+function Colorc() {
   const [color, setColor] = useState("");
   const dispatch = useDispatch();
   const {id} = useParams();
@@ -15,4 +15,4 @@ function Color() {
   );
 }
 
-export default Color;
+export default Colorc;

@@ -1,8 +1,8 @@
 import React from "react";
 import {useDispatch, useSelector} from "react-redux";
 import {decrease, increase, reset} from "../feathers/count";
-function Counter() {
-  const num = useSelector((state) => state.counter.value);
+function Count() {
+  const num = useSelector((state) => state.Conut.value);
   const theam = useSelector((state) => state.color.value);
   const dispatch = useDispatch();
   return (
@@ -15,4 +15,4 @@ function Counter() {
   );
 }
 
-export default Counter;
+export default Count;

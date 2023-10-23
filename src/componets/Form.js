@@ -6,7 +6,7 @@ import {useFormik} from "formik";
 import {useDispatch} from "react-redux";
 import {Add} from "../feathers/form";
 
-function Form() {
+function Formick() {
   const [Enter, setEnter] = useState(false);
   let objectLength;
   const dispatch = useDispatch();
@@ -137,4 +137,4 @@ function Form() {
   );
 }
 
-export default Form;
+export default Formick;
